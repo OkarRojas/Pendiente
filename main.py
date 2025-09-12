@@ -31,10 +31,10 @@ class App:
         
         # Cargar sprites
         sprite_paths = [
-            f"C:\\Users\\oscar\\Downloads\\craftpix-net-563568-free-wraith-tiny-style-2d-sprites\\PNG\\Wraith_01\\PNG Sequences\\Idle\\Wraith_01_Idle_0{str(i).zfill(2)}.png"
+            f"C:\\Users\\oscar\\Documents\\Mi_primer_juego\\craftpix-net-563568-free-wraith-tiny-style-2d-sprites\\PNG\\Wraith_01\\PNG Sequences\\Idle\\Wraith_01_Idle_0{str(i).zfill(2)}.png"
             for i in range(12)
         ]
-        
+       
         self.frames = []
         target_size = (64, 64)
         
