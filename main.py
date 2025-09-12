@@ -19,7 +19,7 @@ class App:
         
         # Configuración del canvas
         self.canvas = tk.Canvas(root, width=900, height=600, bg="lightblue")
-        self.canvas.pack(fill="both", expand=True)
+        self.canvas.pack(fill="both", expand=False)
         
         # Crear plataformas
         self.platforms = [
