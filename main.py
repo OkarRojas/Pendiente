@@ -23,10 +23,12 @@ class App:
         
         # Crear plataformas
         self.platforms = [
+            self.canvas.create_rectangle(0,500,-400,0, fill="black"),
             self.canvas.create_rectangle(400, 400, 500, 420, fill="green", outline="black"),  # Plataforma 1
             self.canvas.create_rectangle(600, 300, 700, 320, fill="green", outline="black"),  # Plataforma 2
             self.canvas.create_rectangle(200, 200, 300, 220, fill="green", outline="black"),  # Plataforma 3
-            self.canvas.create_rectangle(0, 500, 900, 520, fill="brown", outline="black")     # Suelo
+            self.canvas.create_rectangle(0, 500, 900, 520, fill="brown", outline="black"),
+            self.canvas.create_rectangle(100, 500, 150, 450, fill="red", outline="black")     # Suelo
         ]
         
         # Cargar sprites
